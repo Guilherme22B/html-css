@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+th, td{
+    border: 1px solid black;
+}
+thead{
+    color: white;
+    background-color: gray;
+}
+
+th.cabeçario{
+    color: white;
+    background-color: gray;
+}
