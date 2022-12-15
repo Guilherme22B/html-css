@@ -18,6 +18,14 @@
             padding: 10px;
 
         }
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgray;
+        }
         td.num{
             text-align: right;
         }
@@ -28,11 +36,13 @@
     </style>
 </head>
 <body>
+    <h1>uso de tabelas grandes</h1>
     <table>
+        <caption>população das unidades federativas em 2010</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -177,7 +187,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td><strong>20.933.524</strong></td>
             </tr>
         </tfoot>
