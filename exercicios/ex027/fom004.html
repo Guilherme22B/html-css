@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo do formulario</h1>
+    <form action="" method="get" autocomplete="on">
+<fieldset>
+    <legend> Cadastro </legend>
+
+    <p>
+        <label for="inome">nome</label>
+        <input type="text" name="nome" id="inome" autocomplete="username">
+    </p>
+    <p>
+        <label for="ie-mail">E-mail</label>
+        <input type="email" name="e-mail" id="ie-mail" placeholder="e-mail" required autocomplete="email">
+    </p>
+    <p>
+        <label for="itelefone">telefone</label>
+        <input type="tel" name="telefone" id="itelefone" required autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="xxxx-xxxx">
+    </p>
+</fieldset>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+    </form>
+</body>
+</html>
