@@ -4,11 +4,18 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
+        float: right;
         width: 80vw;
+        height: 280px;
     }
 
+    div#formulario{
+        margin-left: 15px;
+        display: block;
+        width: 400px;
+    }
     section#login > div#imagem{
-        float: left;
+        display: block;
         width: 30vw;
         height: 100%;
 
@@ -43,6 +50,9 @@
     }
     div#formulario > h1{
         font-size: 2em;
+        margin-left: 15px;
+        display: block;
+        width: 400px;
     }
 
     div#formulario > p{
